@@ -37,7 +37,6 @@ const babelConfig = () => ({
 const getExternal = ({ browser }) => [
   /@babel\/runtime/,
   'react/jsx-runtime',
-  'react-reconciler/constants',
   ...(browser ? [] : ['fs', 'path', 'url']),
   ...Object.keys(pkg.dependencies),
   ...Object.keys(pkg.peerDependencies),
@@ -47,12 +46,15 @@ const getPlugins = ({ browser, declarationDests, minify = false }) => [
   json(),
   ...(browser ? [ignore(['fs', 'path', 'url'])] : []),
   babel(babelConfig()),
-  commonjs(),
+  commonjs({
+    esmExternals: ['scheduler'],
+  }),
   nodeResolve({ browser, preferBuiltins: !browser }),
   replace({
     preventAssignment: true,
     values: {
       BROWSER: JSON.stringify(browser),
+      'process.env.NODE_ENV': JSON.stringify('production'),
     },
   }),
   copy({

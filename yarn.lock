@@ -8097,12 +8097,12 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-reconciler@0.31.0-rc-33c7bd9a-20241104:
-  version "0.31.0-rc-33c7bd9a-20241104"
-  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.31.0-rc-33c7bd9a-20241104.tgz#721effe6e3bb126a19f20baa445674a536eb6ac1"
-  integrity sha512-qrmL9qT05e4s40YAq1PWI3fjFiBxWgWZ9d9Px7fw3erIRwgH0vCoLFH5IG+xORsuP8mgIYGFCE3VVr2e2kzXLA==
+react-reconciler@0.31.0-rc-02c0e824-20241028:
+  version "0.31.0-rc-02c0e824-20241028"
+  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.31.0-rc-02c0e824-20241028.tgz#8b9e388f07c97643e58ffc863354db0b5450df53"
+  integrity sha512-PYudOAF3/yGW6DH2nrQ79vaNdT7FW+p285hRIuzFPTP3n68dajAPuxh+V4PYhQB/1ihb+VHBjht35cxZ9M7ssA==
   dependencies:
-    scheduler "0.25.0-rc-33c7bd9a-20241104"
+    scheduler "0.25.0-rc-02c0e824-20241028"
 
 react-refresh@^0.14.0:
   version "0.14.0"
@@ -8531,10 +8531,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-scheduler@0.25.0-rc-33c7bd9a-20241104:
-  version "0.25.0-rc-33c7bd9a-20241104"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0-rc-33c7bd9a-20241104.tgz#799a84d23ae3d3da9d2c9edd33a95ff4df358ea9"
-  integrity sha512-brsBJz8VQV4KU/AjYz77UVSAwisgxgDfISvnxkhYSgcvtIG2At2rW5Ggqj67kN8nUvncwYCm7XQ3gW8kv9QMDA==
+scheduler@0.25.0-rc-02c0e824-20241028:
+  version "0.25.0-rc-02c0e824-20241028"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0-rc-02c0e824-20241028.tgz#3e1beda3dc0a9e92b90b28f2df9f3fd2f0597ed3"
+  integrity sha512-GysnKjmMSaWcwsKTLzeJO0IhU3EyIiC0ivJKE6yDNLqt3IMxDByx8b6lSNXRNdN+ULUY0WLLjSPaZ0LuU/GnTg==
 
 scheduler@0.25.0-rc-fb9a90fa48-20240614, scheduler@^0.25.0-rc-603e6108-20241029:
   version "0.25.0-rc-fb9a90fa48-20240614"
